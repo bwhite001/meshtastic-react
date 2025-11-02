@@ -1,4 +1,4 @@
-# Meshtastic POC - WICEN Race Tracking
+# Meshtastic POC - Race Tracking
 
 ## Quick Start
 
