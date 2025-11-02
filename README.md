@@ -1,4 +1,43 @@
-## Yes! Web Serial + Meshtastic in Electron is Absolutely Possible
+# Meshtastic POC - WICEN Race Tracking
+
+## Quick Start
+
+This is a fully implemented Electron + React application for Meshtastic LoRa USB node communication.
+
+### Installation
+
+```bash
+npm install
+```
+
+### Running the Application
+
+**Option 1: Combined (Recommended)**
+```bash
+npm run electron:dev
+```
+
+**Option 2: Separate Terminals**
+```bash
+# Terminal 1
+npm run dev
+
+# Terminal 2 (after Vite starts)
+npm run electron
+```
+
+### First Time Setup
+
+1. Flash Meshtastic firmware to your ESP32 devices: https://flasher.meshtastic.org
+2. Configure devices using Meshtastic CLI (see SETUP.md for details)
+3. Connect USB device and launch the application
+4. Click "Connect to USB Node"
+
+For detailed setup instructions, see [SETUP.md](./SETUP.md)
+
+---
+
+## Architecture Overview
 
 Your proposed architecture of using **Web Serial API with Meshtastic LoRa nodes in an Electron-based React app** for local node-to-node communication is **fully viable** and already supported by the Meshtastic ecosystem.
 
